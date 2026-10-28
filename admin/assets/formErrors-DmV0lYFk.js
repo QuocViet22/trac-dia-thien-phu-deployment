@@ -1,0 +1,1 @@
+function e(e){return e instanceof Error&&`status`in e&&e.status===404}function t(e){return e instanceof Error&&`status`in e&&e.status===409?{field:`seoAlias`,message:e.message}:{message:e instanceof Error?e.message:`Request failed`}}export{e as n,t};
